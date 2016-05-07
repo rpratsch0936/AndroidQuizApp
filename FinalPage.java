@@ -25,12 +25,6 @@ public class FinalPage extends Fragment{
 		get_score = (Button)getView().findViewById(R.id.get_score);
 		get_score.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
-
-
-
-
-
-
 				Intent i = new Intent(getActivity(), Score.class);
 				startActivity(i);
 			}
